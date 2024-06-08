@@ -17,6 +17,8 @@ export function Chat() {
 
     useEffect(() => {
         const domNode = chatParent.current
+        console.log(domNode);
+        
         if (domNode) {
             domNode.scrollTop = domNode.scrollHeight
         }
